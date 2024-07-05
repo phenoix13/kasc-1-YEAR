@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KASC STUDENT SYLLABUS</title>
+    <title>1 YEAR SYLLABUS</title>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
         *{
@@ -33,7 +33,7 @@
         img{
             width: 100px;
             height: 10%;
-            margin-left: 20px;
+            margin: 8px 0 8px 20px;
             align-items: center;
             justify-content: center;
         }
@@ -49,10 +49,10 @@
             justify-content: center;
             align-items: center;
             margin: auto 30px;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
         }
         li a:last-child{
-            margin-right: 10px;
+            margin-right: 40px;
         }
         li a{
             text-decoration: none;
@@ -69,6 +69,7 @@
             font-weight: 700;
             text-align: center;
             font-size: 1rem;
+            margin-right: 15px;
             transition: all 0.4s linear 0s;
         }
         button a{
@@ -83,61 +84,41 @@
             color: white;
             font-size: 1.2rem;
             font-weight: bold;
-
-        }
-        /* nav list*/
-        .list{
-            display: block;
-            position: relative;
-        }
-        .child{
-            position: absolute;
-            display: none;
-            background-color: white;
-            z-index: 1;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            width: 100%;
-        }
-        .child a{
-            color: black;
-            font-size: 1.4rem;
-            display: block;
-            text-align: center;
-            transition: all 0.4s linear;
-        }
-        .child a:hover{
-            background-color: white;
-            padding: 0;            
-        }
-        .list:hover .child{
-            display: block;
         }
         hr{
             border: 2px solid brown;
-        }
-        section{
+        }     
+                /* section */     
+        .c{
             color: white;
-        }
-        .c h2{
             margin: 10px;
-            margin-top: 40px;
+        }   
+        .c h1{
+            text-align: center;
+            font-size: 3rem;
+            margin: 30px 0 0 0;
+            color: rgb(31, 235, 31);
+        }
+        .c h3{
+            margin: 20px;
             font-size: 2rem;
+            color: rgb(235, 235, 38);
         }
-        .c ul li{
-            display: flex;
-            justify-content: left;
-            font-size: 1.8rem;
-            margin-left: 80px;
-            margin-top: 10px;
-            margin-bottom: 20px;
+        .sem{
+            margin-bottom: 50px;
         }
-        .c a:hover{
-            background-color: black;
+        .c .sub{
+            margin: 10px 0 10px 60px;
+        }
+        .c .sub a{
+            text-decoration: none;
             color: white;
-            padding: 2px;
-            border: 1px solid black;
-            border-bottom-color:navy ;
+            font-size: 1.5rem;
+        }
+        span{
+            margin-right: 8px;
+            color: gold;
+            font-size: 1.5rem;
         }
         /* for phone*/
         @media(max-width:600px){
@@ -151,8 +132,8 @@
         }
         /* logo and name*/
         img{
-            width: 60px;
-            height: 70px;
+            width: 70px;
+            height: 80px;
             margin-left: 10px;
         }
         /* nav & hover*/
@@ -166,7 +147,7 @@
             justify-content: center;
             align-items: center;
             margin: auto 5px;
-            font-size: 0.9rem;
+            font-size: 1.1rem;
         }
         li a{
             text-decoration: none;
@@ -183,6 +164,7 @@
             font-weight: 700;
             text-align: center;
             font-size: 0.7rem;
+            margin-right: 7px;
             transition: all 0.4s linear 0s;
             width: 60px;
         }
@@ -199,33 +181,37 @@
             font-size: 0.7rem;
             font-weight: bold;
         }
-                /* nav list*/
-                .list{
-            display: block;
-            position: relative;
-        }
-        .child{
-            position: absolute;
-            display: none;
-            background-color: white;
-            z-index: 1;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            width: 100%;
-        }
-        .child a{
-            color: black;
-            font-size: 0.8rem;
-            display: block;
+        /* section*/
+        .c{
+            color: white;
+            margin: 0px;
+        }   
+        .c h1{
             text-align: center;
-            transition: all 0.4s linear;
+            font-size: 1.7rem;
+            margin: 30px 0 0 0;
+            color: rgb(31, 235, 31);
         }
-        .child a:hover{
-            background-color: white;
-            padding: 0;            
+        .c h3{
+            margin: 20px;
+            font-size: 1.3rem;
+            color: rgb(235, 235, 38);
         }
-        .list:hover .child{
-            display: block;
+        .sem{
+            margin-bottom: 50px;
+        }
+        .c .sub{
+            margin: 10px 0 8px 40px;
+        }
+        .c .sub a{
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+        }
+        span{
+            margin-right: 8px;
+            color: gold;
+            font-size: 1rem;
         }
         }
     </style>
@@ -239,12 +225,9 @@
             <li><a href="https://phenoix13.github.io/home-page-kasc/">
                 HOME
             </a></li>
-            <li class="list"><a>
+            <li class="list"><a title="sorry,Go back home">
                 COURSE
             </a>
-            <div class="child">
-                <a href="">B.SC.CS</a>
-            </div>
             </li>
             <li><a href="https://phenoix13.github.io/kasc-news/">
                 NEWS
@@ -258,17 +241,27 @@
     <hr>
     <section>
         <div class="c">
-            <h2>
-                1 YEAR SEMESTERS:
-            </h2>
-            <ul>
-                <li>
-                    <a href="">I SEMESTER</a>
-                </li>
-                <li>
-                    <a href="">II SEMESTER</a>
-                </li>
-            </ul>
+            <h1>1 Year Materials</h1>
+            <br>
+            <h3>I Semster Syllabus Materials</h3>
+            <div class="sem">
+                <h4 class="sub"><span>&cir;</span><a href="">Tamil-1</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">English-1</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">Computing Fundamentals and c Programming</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">Programming Lab-C</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">Digital Fundamentals and Computer Architecture</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">Environmental Studies</a></h4>
+            </div>
+            <h3>II Semster Syllabus Materials</h3>
+            <div class="sem">
+                <h4 class="sub"><span>&cir;</span><a href="">Tamil-2</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">English-2</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">C++ Programming</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">Programming Lab-c++</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">Internet Basics</a></h4>
+                <h4 class="sub"><span>&cir;</span><a href="">Human Rights</a></h4>
+            </div>
+
         </div>
     </section>
 </body>
